@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main class="container">
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="d-block" id="airlines">
+            <h2>Airlines</h2>
+        </div>
+        <div class="d-block top-20" id="flights">
+            <h2>Flights</h2>
+        </div>
+        <div class="row top-20">
+            <label class="form">Send Funds</label>
+            <input type="text" placeholder="Airline Name" id="fund-airline-name">
+            <input type="text" placeholder="Value (ETH)" id="fund-value">
+            <btn class="btn btn-primary" id="fund">Fund</btn>
+        </div>
+        <div class="row top-20">
+            <label class="form">Purchase Insurance</label>
+            <input type="text" placeholder="Flight Name" id="insurance-flight-name">
+            <input type="text" placeholder="Value (ETH)" id="insurance-value">
+            <btn class="btn btn-primary" id="purchase">Purchase</btn>
+        </div>
+        <div class="row top-20">
+            <label class="form">Fetch Flight Status</label>
+            <input type="text" placeholder="Flight Name" id="status-flight-name">
+            <btn class="btn btn-primary" id="fetch">Fetch</btn>
+        </div>
+    </main>
+
+</body>
+
+</html>
